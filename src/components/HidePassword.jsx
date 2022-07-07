@@ -23,7 +23,7 @@ function ShowAndHidePassword(){
                     <input type={passwordType} onChange={handlePasswordChange} value={passwordInput} name="password" class="p-3 my-2 w-full rounded outline-none text-black" placeholder="Password" />
                     
                      <button onClick={togglePassword}>
-                     { passwordType==="password"? <AiOutlineEyeInvisible class="text-black top-6 right-5 opacity-40 absolute"/> :<AiOutlineEye class="text-black top-6 right-5 opacity-40 absolute"/> }
+                     { passwordType==="password"? <AiOutlineEyeInvisible size="22" class="text-black top-5 right-5 opacity-40 absolute"/> :<AiOutlineEye size="22" class="text-black top-5 right-5 opacity-40 absolute"/> }
                      </button>
                     
                 </div>
