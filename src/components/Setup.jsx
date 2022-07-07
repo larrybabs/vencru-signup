@@ -9,8 +9,8 @@ const Signup = () => {
     <div className="flex justify-center items-center">
 
         {/* left */}
-      <div className="w-full h-full bg-[#2D74DA] text-[#FFFFFF] lg:h-screen lg:w-[540px]">
-        <div className="px-20 ">
+      <div className="w-full h-screen bg-[#2D74DA] text-[#FFFFFF] lg:w-[540px]">
+        <div className="px-8 md:px-20 ">
           <h1 className="text-[20px] mt-[70px] mb-[90px] tracking-widest logo">
             SME Better
           </h1>
