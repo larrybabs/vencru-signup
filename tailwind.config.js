@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      'custom': ['AvenirNextLTPro-Regular',  'sans-serif'],
+  },
   },
   plugins: [],
 }

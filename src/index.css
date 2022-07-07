@@ -3,12 +3,17 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+
+@font-face {
+  font-family: 'AvenirNext';
+  src: url('./assets/font/AvenirNextLTPro-Regular.otf');
 }
+
+body {
+  font-family: 'AvenirNext', serif;
+}
+
+  
 .logo{
   font-family: 'Montserrat', sans-serif;;
 }

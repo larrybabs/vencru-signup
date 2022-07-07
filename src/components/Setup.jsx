@@ -26,6 +26,7 @@ const Signup = () => {
             />
             <label className="mb-1 mt-[26px]">Enter Your Password</label>
             <ShowAndHidePassword />
+            
             <button className="border py-3 my-5 hover:bg-[#5493ec] duration-300 rounded ">
               SIGN IN
             </button>
@@ -39,7 +40,7 @@ const Signup = () => {
               <a href="/">Forgot Password?</a>
             </div>
             <button className="flex justify-center bg-white relative text-[#454749] duration-500 hover:bg-gray-200 border py-3 my-5  rounded ">
-              <FcGoogle className="absolute top-4 left-20" /> Log in with
+              <FcGoogle className="absolute top-4 left-20 md:left-60 lg:left-20" /> Log in with
               Google
             </button>
           </form>
